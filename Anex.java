@@ -6,6 +6,6 @@ import java.util.Map;
  */
 public class Anex {
    private List<Article> articles;
-   private Map<String,String > anexName;
+   private Map<String,String > anexNameMap;
 
 }
