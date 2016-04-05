@@ -1,0 +1,25 @@
+[1mdiff --git a/valueobjects/Anexes.java b/valueobjects/Anexes.java[m
+[1mdeleted file mode 100644[m
+[1mindex a16b3bd..0000000[m
+[1m--- a/valueobjects/Anexes.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,19 +0,0 @@[m
+[31m-package valueobjects;[m
+[31m-[m
+[31m-import java.util.List;[m
+[31m-import java.util.Map;[m
+[31m-[m
+[31m-/**[m
+[31m- * Created by viorel.cojocaru on 05.04.2016.[m
+[31m- */[m
+[31m-public class Anexes {[m
+[31m-    private Map<String,List<Article>> anexNameMap;[m
+[31m-[m
+[31m-    public Map<String, List<Article>> getAnexNameMap() {[m
+[31m-        return anexNameMap;[m
+[31m-    }[m
+[31m-[m
+[31m-    public void setAnexNameMap(Map<String, List<Article>> anexNameMap) {[m
+[31m-        this.anexNameMap = anexNameMap;[m
+[31m-    }[m
+[31m-}[m

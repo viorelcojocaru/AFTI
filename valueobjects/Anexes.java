@@ -1,12 +1,13 @@
+package valueobjects;
+
 import java.util.List;
 import java.util.Map;
 
 /**
- * Created by viorel.cojocaru on 23.03.2016.
+ * Created by viorel.cojocaru on 05.04.2016.
  */
 public class Anexes {
-  // private List<Article> articles;
-   private Map<String,List<Article> > anexNameMap;
+    private Map<String,List<Article>> anexNameMap;
 
     public Map<String, List<Article>> getAnexNameMap() {
         return anexNameMap;
