@@ -3,7 +3,6 @@ package test;
 import constants.UNIT_MEASURE;
 import dao.GenerateAnexesImpl;
 import dao.GenerateAnexesIntf;
-import org.junit.Test;
 import valueobjects.Article;
 
 import java.io.IOException;
@@ -13,14 +12,8 @@ import java.util.List;
 /**
  * Created by viorel.cojocaru on 05.04.2016.
  */
-public class EnumUnitTest {
-
-
-
-
-
-    @Test
-    public void should() {
+public class test {
+    public static void main(String[] args) {
         List<Article> articles=new ArrayList<Article>();
 
         Article article1=new Article();
@@ -57,7 +50,4 @@ public class EnumUnitTest {
             e.printStackTrace();
         }
     }
-
-
-
 }
