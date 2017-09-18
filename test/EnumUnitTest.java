@@ -3,7 +3,7 @@ package test;
 import constants.UNIT_MEASURE;
 import dao.GenerateAnexesImpl;
 import dao.GenerateAnexesIntf;
-import org.junit.Test;
+//import org.junit.Test;
 import valueobjects.Article;
 
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class EnumUnitTest {
 
 
 
-    @Test
+//    @Test
     public void should() {
         List<Article> articles=new ArrayList<Article>();
 

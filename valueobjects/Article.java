@@ -1,6 +1,8 @@
 package valueobjects;
 
 import constants.UNIT_MEASURE;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Created by viorel.cojocaru on 05.04.2016.
@@ -12,7 +14,7 @@ public class Article {
     private double oneUnitUse;
     private double allUnitsUse;
     private UNIT_MEASURE unitMeasure;
-
+    private Set<Material> materials;
     public Long getCode() {
         return code;
     }
