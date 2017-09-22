@@ -1,6 +1,8 @@
 package test;
 /**
  *  Anagrams that can be used
+ *  <li>{@link #ACT}</li>
+ *  <li>{@link #CAT}</li>
  *  <li>{@link #ABED}</li>
  *  <li>{@link #BADE}</li>
  *  <li>{@link #BEAD}</li>
@@ -69,6 +71,8 @@ package test;
 
 public enum Anagrams {
 
+	ACT("act"),
+	CAT("cat"),
 	ABED("abed"),
 	BADE("bade"),
 	BEAD("bead"),
