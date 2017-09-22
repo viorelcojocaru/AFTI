@@ -1,6 +1,74 @@
 package test;
+/**
+ *  Anagrams that can be used
+ *  <li>{@link #ABED}</li>
+ *  <li>{@link #BADE}</li>
+ *  <li>{@link #BEAD}</li>
+ *  <li>{@link #BADE}</li>
+ *  <li>{@link #BEAT}</li>
+ *  <li>{@link #BETA}</li>
+ *  <li>{@link #ABETS}</li>
+ *  <li>{@link #BASTE}</li>
+ *  <li>{@link #BETAS}</li>
+ *  <li>{@link #BEAST}</li>
+ *  <li>{@link #BEATS}</li>
+ *  <li>{@link #ABUT}</li>
+ *  <li>{@link #TABU}</li>
+ *  <li>{@link #TUBA}</li>
+ *  <li>{@link #ACME}</li>
+ *  <li>{@link #CAME}</li>
+ *  <li>{@link #MACE}</li>
+ *  <li>{@link #ACRE}</li>
+ *  <li>{@link #CARE}</li>
+ *  <li>{@link #RACE}</li>
+ *  <li>{@link #ACRES}</li>
+ *  <li>{@link #CARES}</li>
+ *  <li>{@link #RACES}</li>
+ *  <li>{@link #SCARE}</li>
+ *  <li>{@link #ACTOR}</li>
+ *  <li>{@link #COSTA}</li>
+ *  <li>{@link #CASTOR}</li>
+ *  <li>{@link #ACTRESS}</li>
+ *  <li>{@link #CASTERS}</li>
+ *  <li>{@link #RECASTS}</li>
+ *  <li>{@link #AIRMEN}</li>
+ *  <li>{@link #MARINE}</li>
+ *  <li>{@link #REMAIN}</li>
+ *  <li>{@link #ALERT}</li>
+ *  <li>{@link #ALTER}</li>
+ *  <li>{@link #LATER}</li>
+ *  <li>{@link #ALERTED}</li>
+ *  <li>{@link #TREADLE}</li>
+ *  <li>{@link #ALES}</li>
+ *  <li>{@link #LEAS}</li>
+ *  <li>{@link #SALE}</li>
+ *  <li>{@link #SEAL}</li>
+ *  <li>{@link #ALIGNED}</li>
+ *  <li>{@link #DEALING}</li>
+ *  <li>{@link #LEADING}</li>
+ *  <li>{@link #ALLERGY}</li>
+ *  <li>{@link #GALLERY}</li>
+ *  <li>{@link #LARGELY}</li>
+ *  <li>{@link #REGALLY}</li>
+ *  <li>{@link #AMEN}</li>
+ *  <li>{@link #MEAN}</li>
+ *  <li>{@link #NAME}</li>
+ *  <li>{@link #ANEW}</li>
+ *  <li>{@link #WANE}</li>
+ *  <li>{@link #WEAN}</li>
+ *  <li>{@link #ANGEL}</li>
+ *  <li>{@link #ANGLE}</li>
+ *  <li>{@link #GLEAN}</li>
+ *  <li>{@link #ANTLER}</li>
+ *  <li>{@link #LEARNT}</li>
+ *  <li>{@link #RENTAL}</li>
+ *  <li>{@link #APT}</li>
+ *  <li>{@link #PAT}</li>
+ *  <li>{@link #TAP}</li>
+ */
 
 public enum Anagrams {
+
 	ABED("abed"),
 	BADE("bade"),
 	BEAD("bead"),
