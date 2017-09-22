@@ -157,7 +157,7 @@ public enum Anagrams {
 
 	public static boolean contains(String s) {
 		for (Anagrams anagrams : values())
-			if (anagrams.getAnagram().equals(s))
+			if (anagrams.getAnagram().equals(s.toLowerCase()))
 				return true;
 		return false;
 	}
